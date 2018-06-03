@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Submit A Post</title>
+    </head>
+    <body>
+        <h1>Submit A Post</h1>
+        <form method="post" >
+        {% csrf_token %}
+        <ui>Title</ui>
+        {{form.title}}
+        <br>
+        <ui>Text</ui>
+        {{form.text}}
+        <br>
+
+ 
+        <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </body>
+</html>
