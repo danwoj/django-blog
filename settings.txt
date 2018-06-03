@@ -1,3 +1,0 @@
-Database username: db.svc
-Database userpassword: arctic1435club
-Database name: webappdb
